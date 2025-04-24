@@ -2,7 +2,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-Latest-orange)](https://scikit-learn.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 This project implements a machine learning model to classify Iris flowers into three species based on their measurements. The model achieves >90% accuracy using a Random Forest Classifier with optimized hyperparameters.
 
@@ -120,23 +119,3 @@ The Random Forest Classifier is trained with the following specifications:
 - Cross-validation: 5-fold
 - Hyperparameter optimization using GridSearchCV
 - Feature scaling using StandardScaler
-
-## Contributing
-
-Contributions are welcome! Here's how you can help:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-Please ensure your pull request includes:
-- A clear description of the changes
-- Updated documentation if needed
-- Any new dependencies required
-
-## Acknowledgments
-
-- The Iris dataset was sourced from the UCI Machine Learning Repository
-- Thanks to the scikit-learn team for their excellent machine learning library
